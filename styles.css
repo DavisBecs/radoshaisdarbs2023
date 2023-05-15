@@ -1,6 +1,20 @@
 h1 {
-    color: #e1f1fe;
+    color: #d0e2f1;
     font-size: 400%;
+    text-align: center;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+h2 {
+    color: #80bdf0;
+    font-size: 200%;
+    text-align: center;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+p {
+    color: #2c8bd8;
+    font-size: 150%;
     text-align: center;
     font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
@@ -56,3 +70,9 @@ button:hover {
     background: #ddd;
     color: black;
   } 
+  .bg {
+    background: linear-gradient(to bottom right, #0B486B, #F56217);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
