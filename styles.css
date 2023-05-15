@@ -71,7 +71,7 @@ button:hover {
     color: black;
   } 
   .bg {
-    background: linear-gradient(to bottom right, #0B486B, #F56217);
+    background: linear-gradient(to bottom right, #2a5e7c, #541e6d);
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
