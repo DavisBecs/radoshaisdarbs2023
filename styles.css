@@ -1,0 +1,31 @@
+h1 {
+    color: #e1f1fe;
+    font-size: 400%;
+    text-align: center;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+
+body
+
+button {
+    color: #ffffff;
+    background-color: #2d63c8;
+    font-size: 19px;
+    border: 0px solid #2d63c8;
+    border-radius: 30px;
+    padding: 15px 50px;
+    letter-spacing: 1px;
+    cursor: pointer
+}
+button:hover {
+    color: #2d63c8;
+    background-color: #ffffff;
+}
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 110%;
+    min-height: 110%;
+  }
