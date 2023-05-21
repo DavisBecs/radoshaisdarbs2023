@@ -64,7 +64,7 @@ button:hover {
     min-height: 110%;
   }
 
-  .content {
+.content {
     position: fixed;
     bottom: 0;
     background: rgba(0, 0, 0, 0.5);
@@ -73,13 +73,34 @@ button:hover {
     padding: 20px;
   }
   
-  .bg {
+.bg {
     background: linear-gradient(to bottom right, #3c5868, #541e6d);
-    height: 100vh;
+    height: 200vh;
     background-repeat: no-repeat;
     background-size: cover;
   }
 
 .bshadow {
     box-shadow: 5px 5px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  background-color: #80bdf0;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+caption {
+  color: #d0e2f1;
+  font-size: 200%;
+  text-align: center;
+  font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
