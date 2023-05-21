@@ -35,7 +35,7 @@ p1 {
 }
 
 label {
-  color: #d0e2f1;
+  color: rgba(26, 26, 73, 0.938);
   font-size: 130%;
   text-align: center;
   font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
@@ -56,22 +56,16 @@ button:hover {
     background-color: #ffffff;
 }
 
-#myVideo {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 110%;
-    min-height: 110%;
-  }
-
-.content {
-    position: fixed;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.5);
-    color: #f1f1f1;
-    width: 100%;
-    padding: 20px;
-  }
+video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  top:0;
+  left:0;
+  min-width: 100%;
+  min-height: 100%;
+  
+}
   
 .bg {
     background: linear-gradient(to bottom right, #3c5868, #541e6d);
@@ -101,6 +95,28 @@ th {
 caption {
   color: #d0e2f1;
   font-size: 200%;
+  text-align: center;
+  font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.rectangle {
+  width: 300px;
+  height: 150px;
+  background-color: #eaeaea;
+  border: 1px solid #ccc;
+  padding: 75px;
+}
+.content {
+  position: fixed;
+  bottom: 0;
+  left:0;
+  background: rgba(0, 0, 0, 0.267);
+  color: #c2e3ff;
+  width: 100%;
+  padding: 20px;
+}
+g1 {
+  color: #d0e2f1;
+  font-size: 150%;
   text-align: center;
   font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
