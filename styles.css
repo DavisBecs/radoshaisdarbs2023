@@ -19,6 +19,12 @@ p {
     font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
 
+p1 {
+  color: #d0e2f1;
+  font-size: 200%;
+  text-align: center;
+  font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
 
 .background {
     background-image: url("Untitled.jpg");
