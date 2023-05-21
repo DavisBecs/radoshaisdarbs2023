@@ -3,12 +3,28 @@
     <head>
         <title>Kalkulators</title>
         <link rel="stylesheet" href="styles.css">
+        <script src="jaudasvars.js"></script> 
     </head>
-
-    <body>
+    <body class="background2">
         <button type= "button" class="bshadow">
             <a href="index.html">Atpakaļ</a>
         </button>
+        <center>
+        <h1>Svars pret jaudu attiecības kalkulators</h1>
+        <label for="power">Jauda (zs):</label>
+        <input type="number" id="power">
+        <br>
+        <label for="weight">Masa (kg) :</label>
+        <input type="number" id="weight">
+        <br>
+        <br>
+        <button onclick="aprekinat()">Aprēķināt</button>
+        <br>
+        <p id="rezultats"></p>
+        </center>
+    </body>
+    </html>
+    
     </body>
 </html>
 
